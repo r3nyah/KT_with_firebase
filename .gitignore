@@ -1,0 +1,49 @@
+# === Android/Java Defaults ===
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.dex
+*.class
+
+# === IntelliJ / VSCode ===
+.idea/
+*.iws
+*.ipr
+*.iml
+.vscode/
+
+# === Log files ===
+*.log
+
+# === Keystore and secrets ===
+*.jks
+*.keystore
+*.pem
+*.key
+*.crt
+
+# === Firebase / Google config ===
+google-services.json
+firebase-debug.log
+
+# === Sensitive XML values ===
+app/src/main/res/values/private_strings.xml
+
+# === OS-generated ===
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
