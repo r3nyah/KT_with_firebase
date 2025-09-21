@@ -1,4 +1,3 @@
-# === Android/Java Defaults ===
 *.iml
 .gradle
 /local.properties
@@ -13,37 +12,4 @@
 /captures
 .externalNativeBuild
 .cxx
-*.apk
-*.ap_
-*.dex
-*.class
-
-# === IntelliJ / VSCode ===
-.idea/
-*.iws
-*.ipr
-*.iml
-.vscode/
-
-# === Log files ===
-*.log
-
-# === Keystore and secrets ===
-*.jks
-*.keystore
-*.pem
-*.key
-*.crt
-
-# === Firebase / Google config ===
-google-services.json
-firebase-debug.log
-
-# === Sensitive XML values ===
-app/src/main/res/values/private_strings.xml
-
-# === OS-generated ===
-Thumbs.db
-desktop.ini
-*.swp
-*.swo
+local.properties

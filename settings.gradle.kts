@@ -1,8 +1,4 @@
 pluginManagement {
-    plugins {
-        id("org.jetbrains.kotlin.android") version "2.1.0"
-    }
-
     repositories {
         google {
             content {
@@ -15,7 +11,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -24,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "290625"
+rootProject.name = "ktfrbs"
 include(":app")
+ 
