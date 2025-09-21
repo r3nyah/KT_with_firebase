@@ -1,4 +1,4 @@
-package com.and.`is`.ptn290625
+package com.and.`is`.ktfrbs
 
 import org.junit.Test
 
